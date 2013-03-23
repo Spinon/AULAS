@@ -9,16 +9,10 @@ package br.unesp.igce.AULAS;
  * @author aluno
  */
 public class Paciente {
-    private String nome;
-    private String endereço;
-
+    public String nome;
+    public Endereço end;
+    public Scan scn;
 Paciente (String nome) {
-    this.nome = nome;
-    this.endereço = " ";
+    this.nome = nome;  
 }
-
-    public static void main(String[] args) {
-        Paciente x = new Paciente("Lucas Defavori");
-    }
-    
 }
